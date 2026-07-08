@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import "./App.css";
 
 function App() {
   const [todos, setTodos] = useState(() => {
@@ -66,8 +65,8 @@ function App() {
   return (
     <div className="app-wrapper">
       <header className="app-header">
-        <h1>Todo</h1>
-        <p className="subtitle">what needs doing</p>
+        <h1>FocusList</h1>
+        <p className="subtitle">Stay focused. Get things done.</p>
       </header>
 
       <div className="input-row">
